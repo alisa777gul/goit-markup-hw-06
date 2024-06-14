@@ -372,8 +372,10 @@ margin-top: auto;
     }
 
 }
+/* Header end */
 
-/*first section*/
+
+/*first section start*/
  .solutions{
     display: block;
     background-color: #2e2f42;
@@ -478,8 +480,11 @@ background-color:#404BBF;
 
 
 }
+/* first section end */
 
 
+
+/* Features section start */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -509,19 +514,6 @@ background-color:#404BBF;
 .icon-space{
 display: none;
 }
-/* display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-border: 1px solid #8e8f99;
-margin-bottom: 8px; */
-
-
-/* .features-list-element{
-      flex-basis:  calc((100% - 72px)/4);
-} */
 
 .features-list-name { 
 
@@ -630,6 +622,8 @@ min-height: 48px;
     min-width: 264px;
         }
 }
+/* feature section end */
+
 
 
 /* Team section start */
@@ -1227,10 +1221,10 @@ margin-left: 108px;
 
 .form-subscribe{margin-left: 80px;}
 }
+/* Footer end */
 
 
-
-
+/* Modal window start */
 .modal-overlay {
 visibility: hidden;
     position: fixed;
@@ -1508,6 +1502,7 @@ textarea:focus {
  
 }
 }
+/* Modal window end */
 
 .mob-menu is-open{
     visibility: visible;
