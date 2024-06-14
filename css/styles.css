@@ -1509,3 +1509,10 @@ textarea:focus {
 }
 }
 
+.mob-menu is-open{
+    visibility: visible;
+}
+
+.modal-overlay is-open{
+    visibility: visible;
+}
