@@ -62,7 +62,7 @@
         </a>
       </div>
       <!-- Mobile menu start -->
-      <div class="mob-menu is-open">
+      <div class="mob-menu">
         <button class="close-bt" type="button">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -718,7 +718,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="button-modal" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -735,6 +735,7 @@
                 name="user-name"
                 class="modal-input"
                 id="user-name"
+                required
               />
               <svg class="icon-user" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -749,6 +750,7 @@
                 name="user-phone"
                 class="modal-input"
                 id="mobile"
+                required
               />
               <svg class="icon-user" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -763,6 +765,7 @@
                 name="user-email"
                 class="modal-input"
                 id="email"
+                required
               />
               <svg class="icon-user" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -780,6 +783,7 @@
           </div>
           <div class="check-div">
             <input
+              required
               type="checkbox"
               id="user-privacy"
               name="user-privacy"
@@ -797,5 +801,6 @@
         </form>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
